@@ -1,42 +1,81 @@
-.navbar {
-    z-index: 2;
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    height: 6vh;
-    min-height: 40px;
-    background-color: transparent;
-    visibility: hidden;
-    width: 100%;
-    font-family: 'Open Sans', sans-serif;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: flex-end;
-    transition: all 0.4s;
+@media (min-width: 450px) {
+    .navbar {
+        z-index: 2;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 6vh;
+        min-height: 40px;
+        background-color: transparent;
+        visibility: hidden;
+        width: 100%;
+        font-family: 'Open Sans', sans-serif;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-end;
+        transition: all 0.4s;
+    }
+
+    #buttonContainer {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: center;
+        padding-right: 50px;
+    }
+
+    .navButtons {
+        padding: 0px 20px;
+        color: white;
+        font-size: 20px;
+        background-color: transparent;
+        border-width: 0;
+        font-family: 'Open Sans', sans-serif;
+    }
+}
+
+@media (max-width: 449px) {
+    .navbar {
+        z-index: 2;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 6vh;
+        min-height: 40px;
+        background-color: transparent;
+        visibility: hidden;
+        width: 100%;
+        font-family: 'Open Sans', sans-serif;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        transition: all 0.4s;
+    }
+
+    #buttonContainer {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .navButtons {
+        padding: 0px 10px;
+        color: white;
+        font-size: 20px;
+        background-color: transparent;
+        border-width: 0;
+        font-family: 'Open Sans', sans-serif;
+    }
 }
 
 .navbarBlack {
     background-color: #3c3d3f;
     visibility: visible;
-}
-
-#buttonContainer {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    align-items: center;
-    padding-right: 50px;
-}
-
-.navButtons {
-    padding: 0px 20px;
-    color: white;
-    font-size: 20px;
-    background-color: transparent;
-    border-width: 0;
-    font-family: 'Open Sans', sans-serif;
 }
 
 .navButtons:hover {

@@ -2,21 +2,16 @@ import React from 'react';
 import './TopContainer.css';
 import background from '../../background.jpg'
 import {scrollToRef} from '../ScrollToRef';
-import pdf from '../../Resume.pdf'
+import pdf from '../../Haydn Wiese - Resume.pdf';
 import ContactBar from '../ContactBar/ContactBar';
 
 class TopContainer extends React.Component {
     render() {
-        let classes = window.innerHeight > 400 ? {
+        let classes = {
             imageId: 'headerImage',
             titleId: 'title',
             subTitleId: 'subTitle',
             buttonId: 'learnMoreButton'
-        } : {
-            imageId: 'headerImageMobile',
-            titleId: 'titleMobile',
-            subTitleId: 'subTitleMobile',
-            buttonId: 'learnMoreButtonMobile'
         };
         
         return(
