@@ -1,6 +1,6 @@
 import React from 'react';
 import './About.css';
-import aboutImage from '../../about.jpg';
+import aboutImage from '../../Resources/about.jpg';
 import SubTitle from '../SubTitle/SubTitle';
 import {scrollToRef} from '../ScrollToRef';
 import SectionDivider from '../SectionDivider/SectionDivider';
@@ -47,7 +47,7 @@ class About extends React.Component {
                 </div> */}
                 <div className='experienceContainer'>
                     <div>
-                        <img src={telusLogo} id='telusLogo'/>
+                        <img src={telusLogo} id='telusLogo' className='companyLogo'/>
                         <div className='positionTitle'>TELUS - Programmer Analyst</div>
                         <div className='postionDates'>Jan 2019 - April 2019</div>
                     </div>
@@ -75,10 +75,10 @@ class About extends React.Component {
                         </p>
                     </div>
                 </div>
-                <div className='experienceDivider'/>
+                {/* <div className='experienceDivider'/> */}
                 <div className='experienceContainer'>
                     <div>
-                        <img src={ebaseLogo} id='ebaseLogo'/>
+                        <img src={ebaseLogo} id='ebaseLogo' className='companyLogo' />
                         <div className='positionTitle'>eBase Solutions Inc. - Systems Analyst</div>
                         <div className='postionDates'>June 2018 - August 2018</div>
                     </div>
@@ -97,10 +97,10 @@ class About extends React.Component {
                         </p>
                     </div>
                 </div>
-                <div className='experienceDivider'/>
+                {/* <div className='experienceDivider'/> */}
                 <div className='experienceContainer'>
                     <div>
-                        <img src={jaLogo} id='jaLogo'/>
+                        <img src={jaLogo} id='jaLogo' className='companyLogo' />
                         <div className='positionTitle'>Junior Achievement Company Program</div>
                         <div className='postionDates'>October 2014 - April 2016</div>
                     </div>
