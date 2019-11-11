@@ -14,7 +14,7 @@ import appGif1 from './appBasicFunc.gif';
 const Projects = () => (
     <div id='projects'>
         <SubTitle title='PROJECTS' />
-        <div id='projectsContainer'>
+        <div className='projectsContainer'>
             {/* <div className='projectTile'>
                 <div className='projectTitle'>Co-op Budgeting App</div>
                 <div className='projectToolContainer'>

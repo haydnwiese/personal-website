@@ -37,7 +37,7 @@
 }
 
 .projectTileActive {
-    height: 90vh;
+    height: 80vh;
     overflow-y: scroll;
 }
 
@@ -124,4 +124,9 @@
     color: gray;
     position: absolute;
     bottom: 10px;
+}
+
+.expandPromptExpanded {
+    color: gray;
+    position: relative;
 }

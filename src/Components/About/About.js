@@ -26,10 +26,10 @@ class About extends React.Component {
                         <div id='aboutName'>About Me</div>
                         <div className='experienceDivider' />
                         <p style={{marginTop: 20}}>
-                            I am currently in my 1B term at the University of Waterloo studying Systems Design Engineering and am seeking an internship for fall 2019.  I hope to put forth my previous accomplishments and current learning in a manner that allows me to continue listening, learning and adapting to your specific company needs and values and thus become a contributing member of your team.
+                            I am currently in my 2A term at the University of Waterloo studying Systems Design Engineering and am seeking an internship for summer 2020.
                         </p>
                         <p>
-                            As outlined below, I bring with me experience with many programming languages and frameworks and have experience in workplace settings that required professionalism, strong communication skills and an exemplary work ethic.  
+                            As outlined below, I bring with me experience with many languages and frameworks and have experience in workplace settings that required professionalism, strong communication skills and an exemplary work ethic.  
                             I look forward to interviewing with your company to further demonstrate my abilities and desire to be a valuable part of your team and continue to gain valuable knowledge and experience to facilitate my experiential learning.
                         </p>
                     </div>

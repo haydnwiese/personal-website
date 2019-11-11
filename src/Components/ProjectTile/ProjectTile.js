@@ -57,7 +57,7 @@ export default class ProjectTile extends React.Component {
                         <p className='description'>{this.props.description2}</p>
                     </div>
                     <div className='promptContainer'>
-                        <div className='expandPrompt'>{this.state.active ? 'Click to Collapse' : 'Click to Expand'}</div>
+                        <div className={this.state.active ? 'expandPromptExpanded' : 'expandPrompt'}>{this.state.active ? 'Click to Collapse' : 'Click to Expand'}</div>
                     </div>
                 </div>
             );

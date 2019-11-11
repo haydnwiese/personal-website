@@ -47,9 +47,9 @@ class TopContainer extends React.Component {
                     <div className={classes.titleId}>HAYDN WIESE</div>
                     <div className={classes.subTitleId}>Systems Design Engineering Student</div>
                     <div id='headerButtonContainer'>
-                        <button className={classes.buttonId} onClick={() => scrollToRef('about')}>LEARN MORE</button>
-                        <button className={classes.buttonId} onClick={() => scrollToRef('projects')}>MY PROJECTS</button>
-                        <button className={classes.buttonId} onClick={() => window.open(pdf, '_blank')}>RESUME</button>
+                        <button className={classes.buttonId} onClick={() => scrollToRef('about')}>Learn More</button>
+                        <button className={classes.buttonId} onClick={() => scrollToRef('projects')}>My Projects</button>
+                        <button className={classes.buttonId} onClick={() => window.open(pdf, '_blank')}>Resume</button>
                     </div>
                     <img id='arrow' src={arrow} onClick={() => scrollToRef('about')}/>
                 </div>
