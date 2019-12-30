@@ -1,12 +1,12 @@
 import React from 'react';
 import './TopContainer.css';
 
-import background from '../../Resources/background.jpg'
+import background from '../../resources/background.jpg'
 import arrow from './down-arrow.svg';
 
-import {scrollToRef} from '../ScrollToRef';
-import pdf from '../../Resources/Haydn Wiese - Resume.pdf';
-import ContactBar from '../ContactBar/ContactBar';
+import {scrollToRef} from '../../utilities/ScrollToRef';
+import pdf from '../../resources/Haydn Wiese - Resume.pdf';
+import ContactBar from '../contact_bar/ContactBar';
 import Particles from 'react-particles-js';
 
 class TopContainer extends React.Component {

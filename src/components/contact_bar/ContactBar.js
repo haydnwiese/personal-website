@@ -1,13 +1,13 @@
 import React from 'react';
 import './ContactBar.css';
 
-import emailIcon from './email.png';
-import linkedinLogo from './linkedin.png';
-import githubLogo from './github.png';
+import emailIcon from '../../resources/contact_bar/email.png';
+import linkedinLogo from '../../resources/contact_bar/linkedin.png';
+import githubLogo from '../../resources/contact_bar/github.png';
 
-import emailRed from './emailRed.png';
-import linkedinRed from './linkedinRed.png';
-import githubRed from './githubRed.png';
+import emailRed from '../../resources/contact_bar/emailRed.png';
+import linkedinRed from '../../resources/contact_bar/linkedinRed.png';
+import githubRed from '../../resources/contact_bar/githubRed.png';
 
 const ContactBar = () => (
     <div id='contactBar'>

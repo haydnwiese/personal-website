@@ -2,9 +2,9 @@ import React from 'react';
 
 import './ProjectTile.css'
 
-import reactLogo from '../Projects/react.png';
-import appScreenshot1 from '../Projects/coopScreenshot1.png';
-import appScreenshot2 from '../Projects/coopScreenshot2.png';
+import reactLogo from '../../resources/projects/react.png';
+import appScreenshot1 from '../../resources/projects/coopScreenshot1.png';
+import appScreenshot2 from '../../resources/projects/coopScreenshot2.png';
 
 export default class ProjectTile extends React.Component {
     constructor(props) {

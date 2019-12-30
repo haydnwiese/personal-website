@@ -1,13 +1,13 @@
 import React from 'react';
 import './About.css';
-import aboutImage from '../../Resources/about.jpg';
-import SubTitle from '../SubTitle/SubTitle';
-import {scrollToRef} from '../ScrollToRef';
-import SectionDivider from '../SectionDivider/SectionDivider';
+import aboutImage from '../../resources/about/about.jpg';
+import SubTitle from '../sub_title/SubTitle';
+import {scrollToRef} from '../../utilities/ScrollToRef';
+import SectionDivider from '../section_divider/SectionDivider';
 
-import telusLogo from './telus.png';
-import ebaseLogo from './ebase.png';
-import jaLogo from './juniorachievement.png';
+import telusLogo from '../../resources/about/telus.png';
+import ebaseLogo from '../../resources/about/ebase.png';
+import jaLogo from '../../resources/about/juniorachievement.png';
 
 class About extends React.Component {
     constructor(props) {

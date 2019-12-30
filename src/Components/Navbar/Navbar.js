@@ -1,7 +1,7 @@
 import React from 'react';
 import './Navbar.css';
-import {scrollToRef} from '../ScrollToRef';
-import pdf from '../../Resources/Haydn Wiese - Resume.pdf';
+import {scrollToRef} from '../../utilities/ScrollToRef';
+import pdf from '../../resources/Haydn Wiese - Resume.pdf';
 
 export default class Navbar extends React.Component {
     constructor(props) {

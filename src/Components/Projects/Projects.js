@@ -1,15 +1,15 @@
 import React from 'react';
 import './Projects.css';
-import SubTitle from '../SubTitle/SubTitle';
-import ProjectTile from '../ProjectTile/ProjectTile'
+import SubTitle from '../sub_title/SubTitle';
+import ProjectTile from '../project_tile/ProjectTile'
 
-import reactLogo from './react.png';
-import appScreenshot1 from './coopScreenshot1.png';
-import appScreenshot2 from './coopScreenshot2.png';
-import appScreenshot3 from './coopScreenshot3.png';
-import websiteScreenshot from './websitePreview.png';
-import websiteScreenshot2 from './websitePreview2.png';
-import appGif1 from './appBasicFunc.gif';
+import reactLogo from '../../resources/projects/react.png';
+import appScreenshot1 from '../../resources/projects/coopScreenshot1.png';
+import appScreenshot2 from '../../resources/projects/coopScreenshot2.png';
+import appScreenshot3 from '../../resources/projects/coopScreenshot3.png';
+import websiteScreenshot from '../../resources/projects/websitePreview.png';
+import websiteScreenshot2 from '../../resources/projects/websitePreview2.png';
+import appGif1 from '../../resources/projects/appBasicFunc.gif';
 
 const Projects = () => (
     <div id='projects'>
