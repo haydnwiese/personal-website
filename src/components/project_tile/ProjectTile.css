@@ -84,7 +84,8 @@
 }
 
 .appPreviewScreenshots {
-    height: 45vh;
+    /* height: 45vh; */
+    height: auto;
     width: 15vw;
     margin: 30px 20px;
     min-width: 200px;

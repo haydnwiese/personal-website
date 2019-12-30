@@ -40,7 +40,7 @@ const Projects = () => (
                 <img className='appPreviewScreenshots' src={appGif1} />
                 <img className='appPreviewScreenshots' src={appScreenshot2} />
             </ProjectTile>
-            {/* <ProjectTile 
+            <ProjectTile 
                 projectTitle='Personal Website' 
                 projectTool='React' 
                 layout='column'
@@ -50,7 +50,7 @@ const Projects = () => (
             >
                 <img className='webPreviewScreenshots' src={websiteScreenshot} />
                 <img className='webPreviewScreenshots' src={websiteScreenshot2} />
-            </ProjectTile> */}
+            </ProjectTile>
         </div>
     </div>
 );
