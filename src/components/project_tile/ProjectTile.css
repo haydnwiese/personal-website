@@ -4,7 +4,7 @@
         position: relative;
         margin: 0px 20px;
         padding: 20px;
-        width: 50%;
+        width: 30%;
         text-align: center;
         /* border-width: 2px;
         border-color: black;
@@ -12,7 +12,7 @@
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
         border-radius: 20px;
         transition: 0.5s;
-        height: 65vh;
+        height: 12vh;
         overflow: hidden;
     }
     
