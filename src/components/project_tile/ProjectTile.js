@@ -7,6 +7,7 @@ import appScreenshot1 from '../../resources/projects/coopScreenshot1.png';
 import appScreenshot2 from '../../resources/projects/coopScreenshot2.png';
 import androidLogo from '../../resources/projects/androidLogo.png';
 import nodeLogo from '../../resources/projects/nodeLogo.png';
+import springBootLogo from '../../resources/projects/springBootLogo.png';
 
 export default class ProjectTile extends React.Component {
     constructor(props) {
@@ -28,6 +29,7 @@ export default class ProjectTile extends React.Component {
         let toolIcon;
         switch (this.props.projectTool) {
             case 'React Native':
+            case 'React':
                 toolIcon = reactLogo;
                 break;
             case 'Android (Java)':
@@ -35,7 +37,10 @@ export default class ProjectTile extends React.Component {
                 break;
             case 'Node.js':
                 toolIcon = nodeLogo;
-                break;   
+                break;
+            case 'Spring Boot':
+                toolIcon = springBootLogo;
+                break;    
             default:
                 toolIcon = reactLogo;        
         }

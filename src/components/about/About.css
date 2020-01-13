@@ -143,6 +143,10 @@
     transition: 0.5s;
 }
 
+#rbcLogo {
+    width: 8vw;
+}
+
 #telusLogo {
     width: 7vw;
 }

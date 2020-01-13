@@ -5,6 +5,7 @@ import SubTitle from '../sub_title/SubTitle';
 import {scrollToRef} from '../../utilities/ScrollToRef';
 import SectionDivider from '../section_divider/SectionDivider';
 
+import rbcLogo from '../../resources/about/rbc.png';
 import telusLogo from '../../resources/about/telus.png';
 import ebaseLogo from '../../resources/about/ebase.png';
 import jaLogo from '../../resources/about/juniorachievement.png';
@@ -47,9 +48,40 @@ class About extends React.Component {
                 </div> */}
                 <div className='experienceContainer'>
                     <div>
+                        <img src={rbcLogo} id='rbcLogo' className='companyLogo'/>
+                        <div className='positionTitle'>RBC - Android Developer</div>
+                        <div className='postionDates'>September 2019 - December 2019</div>
+                    </div>
+                    <div>
+                        <p>
+                            • Integrated a React Native mobile application with Oracle Identity
+                            Manager for user authentication
+                        </p>
+                        <p>
+                            • Developed a Spring Boot application to serve as a REST API for the
+                            mobile application
+                        </p>
+                        <p>
+                            • Created a CI/CD pipeline using Docker and Jenkins to compile the
+                            native application source code and upload the APK to a cloud service
+                            for multidevice testing
+                        </p>
+                        <p>
+                            • Deployed the Spring Boot Application to a cloud container platform
+                            (RedHat OpenShift)
+                        </p>
+                        <p className='lastPoint'>
+                            • Conducted research and development with multidevice testing using
+                            Appium
+                        </p>
+                    </div>
+                </div>
+
+                <div className='experienceContainer'>
+                    <div>
                         <img src={telusLogo} id='telusLogo' className='companyLogo'/>
                         <div className='positionTitle'>TELUS - Programmer Analyst</div>
-                        <div className='postionDates'>Jan 2019 - April 2019</div>
+                        <div className='postionDates'>January 2019 - April 2019</div>
                     </div>
                     <div>
                         <p>

@@ -30,8 +30,9 @@
         border-color: black;
         border-style: solid; */
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        border-radius: 15px;
         transition: 0.5s;
-        height: 65vh;
+        height: 17vh;
         overflow: hidden;
     }
 }
@@ -89,6 +90,10 @@
     width: 15vw;
     margin: 30px 20px;
     min-width: 200px;
+}
+
+.emulatorScreenshot {
+    border-radius: 27px;
 }
 
 .webPreviewScreenshots {
