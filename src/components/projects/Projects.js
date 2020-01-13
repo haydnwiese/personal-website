@@ -4,15 +4,17 @@ import SubTitle from '../sub_title/SubTitle';
 import ProjectTile from '../project_tile/ProjectTile'
 
 import reactLogo from '../../resources/projects/react.png';
-import appScreenshot1 from '../../resources/projects/coopScreenshot1.png';
+import budgetAppScreenshot1 from '../../resources/projects/coopScreenshot1.png';
 import budgetAppScreenshot2 from '../../resources/projects/coopScreenshot2.png';
-import appScreenshot3 from '../../resources/projects/coopScreenshot3.png';
+import budgetAppScreenshot3 from '../../resources/projects/coopScreenshot3.png';
 import websiteScreenshot from '../../resources/projects/websitePreview.png';
 import websiteScreenshot2 from '../../resources/projects/websitePreview2.png';
 import budgetAppGif1 from '../../resources/projects/appBasicFunc.gif';
 import newNightResults from '../../resources/projects/newNightResultsScreen.png';
 import newNightDetails1 from '../../resources/projects/newNightDetails1.png';
 import newNightDetails2 from '../../resources/projects/newNightDetails2.png';
+import mlbScreenshot1 from '../../resources/projects/mlbScreenshot1.png';
+import mlbScreenshot2 from '../../resources/projects/mlbScreenshot2.png';
 
 const Projects = () => (
     <div id='projects'>
@@ -40,8 +42,9 @@ const Projects = () => (
                     category.'
                 description2='Google Firebase was utilized to store user data.'
             >
-                <img className='appPreviewScreenshots' src={budgetAppGif1} />
+                <img className='appPreviewScreenshots' src={budgetAppScreenshot1} />
                 <img className='appPreviewScreenshots' src={budgetAppScreenshot2} />
+                <img className='appPreviewScreenshots' src={budgetAppScreenshot3} />
             </ProjectTile>
             <ProjectTile 
                 projectTitle='New Night' 
@@ -98,8 +101,8 @@ const Projects = () => (
                 projects'
                 description2='The React app is deployed to Google Cloud App Engine'
             >
-                <img className='webPreviewScreenshots' src={websiteScreenshot} />
-                <img className='webPreviewScreenshots' src={websiteScreenshot2} />
+                <img className='appPreviewScreenshots' src={mlbScreenshot1} />
+                <img className='appPreviewScreenshots' src={mlbScreenshot2} />
             </ProjectTile>
         </div>
     </div>
