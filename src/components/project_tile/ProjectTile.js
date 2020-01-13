@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 import './ProjectTile.css'
 
@@ -81,4 +82,10 @@ export default class ProjectTile extends React.Component {
             );
         }
     }
+}
+
+ProjectTile.propTypes = {
+    projectTitle: PropTypes.string,
+    projectTool: PropTypes.string,
+    layout: PropTypes.string
 }
