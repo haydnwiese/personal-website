@@ -5,6 +5,7 @@
         margin: 0px 20px;
         padding: 20px;
         width: 30%;
+        min-width: 360px;
         text-align: center;
         /* border-width: 2px;
         border-color: black;
@@ -39,6 +40,11 @@
 
 .projectTileActive {
     height: 80vh;
+    overflow-y: scroll;
+}
+
+.projectTileNoImages {
+    height: 35vh;
     overflow-y: scroll;
 }
 
@@ -93,7 +99,7 @@
 }
 
 .emulatorScreenshot {
-    border-radius: 27px;
+    border-radius: 3vh;
 }
 
 .webPreviewScreenshots {

@@ -27,11 +27,11 @@ class About extends React.Component {
                         <div id='aboutName'>About Me</div>
                         <div className='experienceDivider' />
                         <p style={{marginTop: 20}}>
-                            I am currently in my 2A term at the University of Waterloo studying Systems Design Engineering and am seeking an internship for summer 2020.
+                            I am a 2A Systems Design Engineering student at the University of Waterloo and an aspiring software developer seeking internship opportunities for summer 2020.
                         </p>
                         <p>
                             As outlined below, I bring with me experience with many languages and frameworks and have experience in workplace settings that required professionalism, strong communication skills and an exemplary work ethic.  
-                            I look forward to interviewing with your company to further demonstrate my abilities and desire to be a valuable part of your team and continue to gain valuable knowledge and experience to facilitate my experiential learning.
+                            I look forward to interviewing with your company to further demonstrate my abilities and desire to be a valuable part of your team. I wish to continue to gain valuable knowledge and experience to facilitate my experiential learning.
                         </p>
                     </div>
                 </div>
@@ -54,25 +54,16 @@ class About extends React.Component {
                     </div>
                     <div>
                         <p>
-                            • Integrated a React Native mobile application with Oracle Identity
-                            Manager for user authentication
+                            • Developed various features within the RBC Mobile Banking app in Java
                         </p>
                         <p>
-                            • Developed a Spring Boot application to serve as a REST API for the
-                            mobile application
+                            • Worked extensively with Android RecyclerViews, fragments and MVP
                         </p>
                         <p>
-                            • Created a CI/CD pipeline using Docker and Jenkins to compile the
-                            native application source code and upload the APK to a cloud service
-                            for multidevice testing
-                        </p>
-                        <p>
-                            • Deployed the Spring Boot Application to a cloud container platform
-                            (RedHat OpenShift)
+                            • Actively participated in agile processes
                         </p>
                         <p className='lastPoint'>
-                            • Conducted research and development with multidevice testing using
-                            Appium
+                            • Collaborated with business and design partners to iterate on requirements
                         </p>
                     </div>
                 </div>
