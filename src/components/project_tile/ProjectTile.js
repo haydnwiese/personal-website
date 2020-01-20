@@ -24,7 +24,7 @@ export default class ProjectTile extends React.Component {
     render() {
         let className;
         className += ' projectTileNoImages';
-        this.state.active ? (this.props.containsImages ? className = 'projectTile projectTileActive' : className = 'projectTile projectTileNoImages') : className = 'projectTile';
+        this.state.active ? (this.props.containsImages ? className = 'projectTile projectTileActive' : className = 'projectTile projectTileNoImages') : className = 'projectTile projectTileInactive';
 
         let toolIcon;
         switch (this.props.projectTool) {
