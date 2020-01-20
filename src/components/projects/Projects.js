@@ -42,9 +42,9 @@ const Projects = () => (
                     category.'
                 description2='Google Firebase was utilized to store user data.'
             >
-                <img className='appPreviewScreenshots emulatorScreenshot' src={budgetAppScreenshot1} />
-                <img className='appPreviewScreenshots emulatorScreenshot' src={budgetAppScreenshot2} />
-                <img className='appPreviewScreenshots emulatorScreenshot' src={budgetAppScreenshot3} />
+                <img className='appPreviewScreenshots' src={budgetAppScreenshot1} />
+                <img className='appPreviewScreenshots' src={budgetAppScreenshot2} />
+                <img className='appPreviewScreenshots' src={budgetAppScreenshot3} />
             </ProjectTile>
             <ProjectTile 
                 projectTitle='New Night' 
@@ -53,9 +53,9 @@ const Projects = () => (
                 description1='An Android app to help users pick a venue for a night out in Toronto'
                 description2='Utilizes the Google Places API in conjunction with my own custom API. The use of the custom API allows results to be filtered further by categories such as: Music Genre, Venue Size and Dress code'
             >
-                <img className='appPreviewScreenshots emulatorScreenshot' src={newNightResults} />
-                <img className='appPreviewScreenshots emulatorScreenshot' src={newNightDetails1} />
-                <img className='appPreviewScreenshots emulatorScreenshot' src={newNightDetails2} />
+                <img className='appPreviewScreenshots' src={newNightResults} />
+                <img className='appPreviewScreenshots' src={newNightDetails1} />
+                <img className='appPreviewScreenshots' src={newNightDetails2} />
             </ProjectTile>
             <ProjectTile 
                 projectTitle='GO Train Status Messenger' 

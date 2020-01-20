@@ -66,15 +66,12 @@ export default class ProjectTile extends React.Component {
                         <img className='projectToolLogo' src={toolIcon} />
                         <div className='projectTool'>{this.props.projectTool}</div>
                     </div>
-                    <div className={`previewContainer ${this.props.layout}`}>
-                        {this.props.children}
-                    </div>
                     <div className='descriptionContainer'>
-                        {this.props.containsImages &&
-                            <div className='descriptionTitle'>Description</div>
-                        }
                         <p className='description'>{this.props.description1}</p>
                         <p className='description'>{this.props.description2}</p>
+                    </div>
+                    <div className={`previewContainer ${this.props.layout}`}>
+                        {this.props.children}
                     </div>
                     <div className='promptContainer'>
                         <div className={this.state.active ? 'expandPromptExpanded' : 'expandPrompt'}>{this.state.active ? 'Click to Collapse' : 'Click to Expand'}</div>
