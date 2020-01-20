@@ -52,18 +52,23 @@ class About extends React.Component {
                         <div className='positionTitle'>RBC - Android Developer</div>
                         <div className='postionDates'>September 2019 - December 2019</div>
                     </div>
+                    Developed various features within the RBC Mobile Banking app in Java
+• Worked extensively with Android RecyclerViews, fragments and Retrofit
+• Delivered features at the pace of full-time employees in an agile environment
+• Collaborated closely with business and design partners to iterate on requirements
+
                     <div>
                         <p>
                             • Developed various features within the RBC Mobile Banking app in Java
                         </p>
                         <p>
-                            • Worked extensively with Android RecyclerViews, fragments and MVP
+                            • Worked extensively with Android RecyclerViews, fragments and Retrofit
                         </p>
                         <p>
-                            • Actively participated in agile processes
+                            • Delivered features at the pace of full-time employees in an agile environment
                         </p>
                         <p className='lastPoint'>
-                            • Collaborated with business and design partners to iterate on requirements
+                            • Collaborated closely with business and design partners to iterate on requirements
                         </p>
                     </div>
                 </div>
