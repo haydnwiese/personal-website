@@ -79,7 +79,7 @@ const Projects = () => (
                 layout='column'
                 description1='A Spring Boot app to serve as a REST API for my "New Night" Android app.'
                 containsImages={false}
-                description2='Connects to a MySql database which stores additional details on places provided by the Google Places API. 
+                description2='Connects to a MySQL database which stores additional details on places provided by the Google Places API. 
                 The data is combined to offer a more refined selection to the user.'
             >
                 {/* <img className='webPreviewScreenshots' src={extendedPlacesScreenshot} /> */}
