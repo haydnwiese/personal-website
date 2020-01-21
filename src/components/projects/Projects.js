@@ -9,7 +9,10 @@ import budgetAppScreenshot2 from '../../resources/projects/budgeting_app/screens
 import budgetAppScreenshot3 from '../../resources/projects/budgeting_app/screenshot3.png';
 import websiteScreenshot from '../../resources/projects/websitePreview.png';
 import websiteScreenshot2 from '../../resources/projects/websitePreview2.png';
-import newNightResults from '../../resources/projects/new_night/newNightResultsScreen.png';
+import newNightWelcome from '../../resources/projects/new_night/newNightWelcome.png';
+import newNightFilters1 from '../../resources/projects/new_night/newNightFilters1.png';
+import newNightFilters2 from '../../resources/projects/new_night/newNightFilters2.png';
+import newNightResults from '../../resources/projects/new_night/newNightResults.png';
 import newNightDetails1 from '../../resources/projects/new_night/newNightDetails1.png';
 import newNightDetails2 from '../../resources/projects/new_night/newNightDetails2.png';
 import mlbScreenshot1 from '../../resources/projects/chrome_extension/mlbScreenshot1.png';
@@ -53,6 +56,9 @@ const Projects = () => (
                 description1='An Android app to help users pick a venue for a night out in Toronto'
                 description2='Utilizes the Google Places API in conjunction with my own custom API. The use of the custom API allows results to be filtered further by categories such as: Music Genre, Venue Size and Dress code'
             >
+                <img className='appPreviewScreenshots' src={newNightWelcome} />
+                <img className='appPreviewScreenshots' src={newNightFilters1} />
+                <img className='appPreviewScreenshots' src={newNightFilters2} />
                 <img className='appPreviewScreenshots' src={newNightResults} />
                 <img className='appPreviewScreenshots' src={newNightDetails1} />
                 <img className='appPreviewScreenshots' src={newNightDetails2} />
